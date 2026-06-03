@@ -57,6 +57,10 @@ Documentation = "https://github.com/Far-1975/aviora#readme"
 
 [tool.setuptools]
 package-dir = {"" = "src"}
+include-package-data = true
+
+[tool.setuptools.package-data]
+aviora = ["py.typed"]
 
 [tool.setuptools.packages.find]
 where = ["src"]

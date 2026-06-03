@@ -6,6 +6,7 @@
 </p>
 
 <p align="center">
+  <a href="https://github.com/Far-1975/aviora/actions"><img src="https://github.com/Far-1975/aviora/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
   <a href="https://pypi.org/project/aviora/"><img src="https://img.shields.io/pypi/v/aviora?color=blue&label=PyPI" alt="PyPI"></a>
   <a href="https://pypi.org/project/aviora/"><img src="https://img.shields.io/pypi/dm/aviora?color=brightgreen&label=Downloads" alt="Downloads"></a>
   <a href="https://pypi.org/project/aviora/"><img src="https://img.shields.io/pypi/pyversions/aviora" alt="Python versions"></a>
@@ -21,7 +22,7 @@
 - **RAG-ready** — `get_search_context()` returns a clean text blob for LLM context windows
 - **Q&A search** — `qna_search()` returns a single direct answer string
 - **Extract & crawl** — pull clean content from any URL or entire websites
-- **Typed** — full `TypedDict` return types for IDE autocompletion
+- **Typed** — full `TypedDict` return types + PEP 561 `py.typed` marker for mypy/pyright
 - **Simple error handling** — `AvioraAuthError`, `AvioraRateLimitError`
 
 ---
